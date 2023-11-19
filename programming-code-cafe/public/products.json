@@ -1,0 +1,38 @@
+[
+    {
+        "id":"1aaaa11aaaa",
+        "authorName":"Mr. Raju",
+        "blogTitle":"How to get your first job as a self-taught programmer?",
+        "coverImage": "https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "authorImage":"https://img.freepik.com/free-photo/handsome-young-businessman-suit_273609-6513.jpg?w=900&t=st=1700119553~exp=1700120153~hmac=8c9b769e04fc3208d29777f3e514157882fe31bfb2e61739bb224e7232231031",
+        "readTime": 5,
+        "publishDate": "Mar 14 (4 Days ago)"
+    },
+    {
+        "id":"2bbbb22bbbb",
+        "authorName":"Mrs. Setara",
+        "blogTitle":"How to get your second job as a self-taught C++ programmer?",
+        "coverImage": "https://images.unsplash.com/photo-1607705703571-c5a8695f18f6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "authorImage":"https://img.freepik.com/free-photo/handsome-corporate-man-real-estate-agent-assistant-smiling-hold-hands-together-how-may-i-help-you-smiling-friendly-polite-assist-customer-white-background_176420-45257.jpg?w=900&t=st=1700119589~exp=1700120189~hmac=d855d947620c4f8ca42b5da925df5d576b4b56b73e70a5a42e8a9cd769bfe823",
+        "readTime": 8,
+        "publishDate": "Mar 16 (6 Days ago)"
+    },
+    {
+        "id":"3cccc33cccc",
+        "authorName":"Mina Mostofa",
+        "blogTitle":"How to get your third job as a self-taught python programmer?",
+        "coverImage": "https://images.unsplash.com/photo-1623479322729-28b25c16b011?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "authorImage":"https://img.freepik.com/free-photo/handsome-bearded-businessman-rubbing-hands-having-deal_176420-18778.jpg?w=900&t=st=1700119587~exp=1700120187~hmac=49b52394e6fd81a5ebc2df4d713efed7a98c47741121f551b2e76c4194280cef",
+        "readTime": 12,
+        "publishDate": "Mar 17 (7 Days ago)"
+    },
+    {
+        "id":"4dddd44dddd",
+        "authorName":"Aminul Islam",
+        "blogTitle":"How to get your third job as a self-taught React Javascript programmer?",
+        "coverImage": "https://images.unsplash.com/photo-1624377632657-3902bfd35958?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "authorImage":"https://media.licdn.com/dms/image/D5603AQEIOESbbxU2Yg/profile-displayphoto-shrink_200_200/0/1684515743118?e=2147483647&v=beta&t=Y8JhY4Oi8HFR26Ueti-1JeQKLe61BOl1OF7ZJ9WJb2M",
+        "readTime": 15,
+        "publishDate": "Mar 19 (9 Days ago)"
+    }
+]

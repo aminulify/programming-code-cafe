@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+    align-items: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+    transition: all 0.3s;
+}
+nav li a:hover{
+    color: #6047EC;
+}
+nav li img{
+    width: 50px;
+}
+.header-hr{
+    margin: 0 100px;
+}
+
+/* phone responsive  */
+@media screen and (max-width: 1000px) {
+    .header{
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    nav li{
+        display: none;
+    }
+    .header-hr{
+        margin: 0 50px;
+    }
+}

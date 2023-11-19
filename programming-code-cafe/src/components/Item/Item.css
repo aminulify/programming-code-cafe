@@ -1,0 +1,73 @@
+main{
+    margin: 30px 30px 30px 100px;
+}
+
+/* phone responsive  */
+@media screen and (max-width: 1000px) {
+    main{
+        margin: 30px 50px;
+    }
+    h1{
+        font-size: 25px;
+    }
+}
+
+.cover-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.title-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    align-items: center;
+}
+.title-left{
+    display: flex;
+    gap: 15px;
+}
+.title-left p{
+    font-size: 12px;
+    color: rgb(147, 147, 147);
+    margin-top: 1px;
+}
+.title-left img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.title-right p{
+    font-size: 16px;
+    color: rgb(147, 147, 147);
+}
+.title-right i{
+    margin-left: 8px;
+}
+.tags{
+    display: flex;
+    gap: 20px;
+}
+.tags p{
+    font-size: 12px;
+    color: rgb(147, 147, 147);
+    font-weight: 500;
+    margin: 10px 0;
+}
+.mark-link{
+    font-size: 12px;
+    font-weight: 500;
+}
+hr{
+    margin: 20px 0;
+}
+i{
+    cursor: pointer;
+    transition: all 0.3s;
+}
+i:hover{
+    color: #6047EC;
+}
+i:active{
+    color: red;
+}
