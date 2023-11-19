@@ -1,0 +1,41 @@
+.product-right-section{
+    margin: 30px 100px 30px 0;
+}
+
+/* phone responsive  */
+@media screen and (max-width: 1000px) {
+    .product-right-section{
+        margin: 30px 50px;
+    }
+}
+
+.time-zone{
+    padding: 12px;
+    border: 1px solid #6047EC;
+    background: rgba(96, 71, 236, 0.10);
+    border-radius: 5px;
+    
+}
+.time-zone b{
+    display: grid;
+    color: #6047EC;
+    opacity: 100%;
+    text-align: center;
+}
+.bookmarked-section{
+    margin: 30px 0;
+    padding: 20px;
+    border-radius: 8px;
+    background: rgba(17, 17, 17, 0.05);
+}
+.count-blog{
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.bookmarked{
+    margin: 10px 0;
+    padding: 10px;
+    background-color: white;
+    border-radius: 7px;
+    font-size: 13px;
+}

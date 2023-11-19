@@ -1,0 +1,21 @@
+.blog-section{
+    margin: 0 100px;
+}
+.blog-heading{
+    text-align: center;
+}
+.blog-subtitle{
+    color: #6047EC;
+}
+.paragraph{
+    font-size: 14px;
+}
+.blog{
+    margin: 10px 0;
+}
+/* phone responsive  */
+@media screen and (max-width: 1000px) {
+   .blog-section{
+    margin: 0 50px;
+   }
+}

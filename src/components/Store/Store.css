@@ -1,0 +1,12 @@
+.store-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+/* phone responsive  */
+@media screen and (max-width: 1000px) {
+    .store-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
