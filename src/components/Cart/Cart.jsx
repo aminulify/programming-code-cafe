@@ -7,15 +7,23 @@ const Cart = (props) => {
     const cart = props.cart;
     console.log(cart);
 
+    const time = props.time;
+    // console.log(time);
+
+    let total = 0;
+    for(const item of time){
+        total = total + item;
+    }
+
     const bookMarked = document.getElementById('bookmarked');
     let count = 0;
     for(const item of cart){
         // console.log(item.blogTitle);
         count++;        
     }
+
     for(const item of cart.slice(-1)){
-        console.log(item.blogTitle);
-        
+        console.log(item.blogTitle);    
         const p = document.createElement('p');
         p.innerText = item.blogTitle;
         p.classList.add('bookmarked');
@@ -24,13 +32,6 @@ const Cart = (props) => {
         
     }
 
-    const time = props.time;
-    // console.log(time);
-
-    let total = 0;
-    for(const item of time){
-        total = total + item;
-    }
     return (
         <div className='product-right-section'>
             <div className="time-zone">
