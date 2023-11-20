@@ -6,6 +6,7 @@ import Cart from '../Cart/Cart';
 const Store = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
+    const [time, setTime] = useState([]);
     useEffect(()=>{
         fetch('products.json')
         .then(res=>res.json())
@@ -16,6 +17,11 @@ const Store = () => {
         const newCart = [...cart, pd];
         setCart(newCart);
     }
+
+    const countTime = (pd)=>{
+        const newTime = [...time, pd];
+        setTime(newTime);
+    }
     return (
         <div className='store-container'>
             <div className="products-container">
@@ -24,12 +30,13 @@ const Store = () => {
                     key={pd.id}
                     pd={pd}
                     handleAddItem={handleAddItem}
+                    countTime = {countTime}
                     ></Item>)
                 }
             </div>
 
             <div className="bookmarked-container">
-                <Cart></Cart>
+                <Cart cart={cart} time={time}></Cart>
             </div>
         </div>
     );

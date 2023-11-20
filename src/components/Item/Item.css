@@ -57,6 +57,11 @@ main{
 .mark-link{
     font-size: 12px;
     font-weight: 500;
+    cursor: pointer;
+    color: blue;
+}
+.mark-link:active{
+    color: red;
 }
 hr{
     margin: 20px 0;

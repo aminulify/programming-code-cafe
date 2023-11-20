@@ -7,6 +7,8 @@ const item = (props) => {
 
     const handleAddItem = props.handleAddItem;
 
+    const countTime = props.countTime;
+    // console.log(countTime);
     
     return (
         <main>
@@ -37,7 +39,7 @@ const item = (props) => {
             <p>#beginner</p>
             <p>#programming</p>
             </div>
-            <a href="#" className='mark-link'>Mark as read...</a>
+            <u onClick={()=>{countTime(readTime)}} className='mark-link'>Mark as read...</u>
             <hr/>
 
         </main>
